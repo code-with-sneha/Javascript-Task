@@ -1,0 +1,68 @@
+html,
+body{
+   margin: 0;
+   font-family: 'Poppins', sans-serif;
+   background-image: url("https://cdn.pixabay.com/photo/2020/05/30/09/53/todo-lists-5238324_1280.jpg");
+   background-repeat: no-repeat;
+   object-fit: cover;
+}
+
+#wrapper h2{
+    display:flex;
+    justify-content: center;
+}
+
+h2{
+    color:black;
+    letter-spacing: 1px;
+}
+input{
+    border-radius: 5px;
+    border: 2px solid black;
+    margin-top:30px;
+    height:2.5em;
+    width:250px;
+    padding-left:10px;
+}
+
+input:active{
+    border:none;
+}
+#wrapper{
+    height:500px;
+    width:400px;
+    margin:200px auto;
+    background-color:rgba(245, 245, 245, 0.655);
+    border-radius:10px;
+    padding:30px;
+    border: none;
+}
+
+button{
+    margin-top:20px;
+    background-color:black;
+    border-radius: 4px;
+    height: 44px;
+    font-weight: 600;
+    padding: 0 30px;
+    letter-spacing: 1px;
+    border: none;
+    color: white;
+}
+
+button:hover{
+    cursor:pointer;
+}
+#todoList{
+    color:black;
+    font-size:28px;  
+    margin-top:10px; 
+}
+
+#todoList p{
+  margin:10px 0px;
+}
+
+#todoList p:hover{
+  cursor: pointer;
+}
