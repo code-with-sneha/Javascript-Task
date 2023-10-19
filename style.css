@@ -61,6 +61,10 @@ h1{
 .input-group.error input{
     border-color:rgb(206, 67, 67);
 }
-button .line{
-    color: white;
+
+@media screen and (max-width: 300px) {
+    .container {
+       display: block;
+       float: left;
+    }
 }
